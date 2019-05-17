@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Remember that here, in XML, you can create your own tags! And that your html scripts should reflect these tags.-->
+<CATALOG>
+    <FILM>
+        <TITLE>Spider Man</TITLE>
+        <GENERE>Action</GENERE>
+        <YEAR>2004</YEAR>
+        <DIRECTOR>John Whick</DIRECTOR>
+        <COUNTRY>USA</COUNRTY>
+    </FILM>
+    <FILM>
+        <TITLE>Van Helsing</TITLE>
+        <GENERE>Action/Horror</GENERE>
+        <YEAR>2008</YEAR>
+        <DIRECTOR>Xavier Mount</DIRECTOR>
+        <COUNTRY>USA</COUNRTY>
+    </FILM>
+    <FILM>
+      <TITLE>Mad Max</TITLE>
+      <GENERE>Action</GENERE>
+      <YEAR>2016</YEAR>
+      <DIRECTOR>Michael Bay</DIRECTOR>
+      <COUNTRY>USA/Australia</COUNRTY>
+    </FILM>
+</CATALOG>

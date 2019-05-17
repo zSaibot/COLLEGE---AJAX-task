@@ -5,12 +5,6 @@
         <link rel="stylesheet" href="css/style.css">
         <title>Film Catalog</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
-    </head>
-    <body>
-        <h1>Below is our Film Catalog</h1>
-        <button id="catalog" onclick="filmCatalog()">Take a look...</button>
-        <table id="results"></table>
         <script>
             function filmCatalog() {
               var xhttp = new XMLHttpRequest();
@@ -25,7 +19,7 @@
             function myFunction(xml) {
               var i;
               var xmlDoc = xml.responseXML;
-              var table="<tr><th>#</th><th>#</th></tr>";
+              var table="<tr><th>Title</th><th>GENERE</th></tr>";
               var x = xmlDoc.getElementsByTagName("FILM");
               for (i = 0; i <x.length; i++) {
                 table += "<tr><td>" +
@@ -43,5 +37,10 @@
               document.getElementById("results").innerHTML = table;
             }
         </script>
+    </head>
+    <body>
+        <h1>Below is our Film Catalog</h1>
+        <button id="catalog" onclick="filmCatalog()">Take a look...</button>
+        <table id="results"></table>
     </body>
 </html>

@@ -2,23 +2,26 @@
 <!--Remember that here, in XML, you can create your own tags! And that your html scripts should reflect these tags.-->
 <CATALOG>
     <FILM>
-        <FILM-NAME>Avengers:Endgame</FILM-NAME>
-		<DIRECTOR>The Russo Brothers</DIRECTOR>
-		<YEAR>2019</YEAR>
+        <FILM-NAME>Avengers: Endgame</FILM-NAME>
+	<DIRECTOR>The Russo Brothers</DIRECTOR>
+	<YEAR>2019</YEAR>
     </FILM>
     <FILM>
         <FILM-NAME>American Beauty</FILM-NAME>
-		<DIRECTOR>Sam Mendes</DIRECTOR>
-		<YEAR>1999</YEAR>
+	<DIRECTOR>Sam Mendes</DIRECTOR>
+	<YEAR>1999</YEAR>
     </FILM>
     <FILM>
         <FILM-NAME>Avatar</FILM-NAME>
-		<DIRECTOR>James Cameron</DIRECTOR>
-		<YEAR>2009</YEAR>
+	<DIRECTOR>James Cameron</DIRECTOR>
+	<YEAR>2009</YEAR>
     </FILM>
-	 <FILM>
-        <FILM-NAME>Alien</FILM-NAME>
-		<DIRECTOR>Ridluy Scot</DIRECTOR>
-		<YEAR>1979</YEAR>
+    	<FILM>
+    	<FILM-NAME>Alien</FILM-NAME>
+    	<DIRECTOR>Ridley Sccott</DIRECTOR>
+    	<YEAR>1979</YEAR>
+    </FILM>
+    <FILM>
+	
     </FILM>
 </CATALOG>
